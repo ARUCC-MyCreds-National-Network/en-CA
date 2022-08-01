@@ -14,6 +14,8 @@ MATTR is a market leader in providing a platform for offering digital identities
 #### Digitary:
 Digitary provides solution in educational sector to issue and varify the digital credentials for the educational degree certificates, transcripts and other senetitive documents online. 
 
+## How to use this project?
+Section covering the details of how this project and code can be utilised 
 
 ### Standards and Specifications 
 In this project, there are various standards and specifications are being used to establish the integrity of the educational credentials.  
@@ -21,10 +23,27 @@ In this project, there are various standards and specifications are being used t
 #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
-![Screenshot](Screen Shot 2022-08-01 at 10.15.54 PM.png)
+For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/).
 
-https://www.w3.org/TR/2022/REC-did-core-20220719/
+Below section represents a sample DID document for reference.  
+test
 
+```
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ]
+  "id": "did:example:123456789abcdefghi",
+  "authentication": [{
+    
+    "id": "did:example:123456789abcdefghi#keys-1",
+    "type": "Ed25519VerificationKey2020",
+    "controller": "did:example:123456789abcdefghi",
+    "publicKeyMultibase": "zH3C2AVvLMv6gmMNam3uVAjZpfkcJCwDwnZn6z3wXmqPV"
+  }]
+}
+```
 
 #### Verifieable Credentials Data Model v1.1: 
 
@@ -39,14 +58,20 @@ When combined with DIDs, VCs provide a decentralized data sharing model where in
 To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/).
 
 
-### International organisations supporting digital identities and verifieable credentials   
+### International organisations supporting digital identities and verifieable credentials  
+
+- IETF 
+- OIDC
+- W3C
+
 
 
 ### Project learnings 
+Any project learnings can be captured here. 
 
 
 ### Support 
-Section covering support details 
+Section covering the support details 
 
 
 ### Credits
