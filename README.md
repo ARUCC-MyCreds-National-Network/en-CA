@@ -1,32 +1,31 @@
 ## MyCreds
-A project for creating verifieable credentials of educational records for ARUCC-Canada
+A project for creating verifiable credentials of educational records for ARUCC-Canada
 
 ## About this project
-The project enables a secure digital wallet (i.e. MyCreds) where graduates can view and share their official, veirified educational credentials anytime, and from anywhere. 
+The project enables a secure digital wallet (i.e. MyCreds) where graduates can view and share their official, verified educational credentials anytime, and from anywhere. 
 There are various government bodies, partners and stakeholders are involved in brining this idea to life and making the MyCreds an innovative platform to deliver value in the Canadian educational sector. 
 
 #### ARUCC: 
-ARUCC (Association of Registrars of the Universities and Colleges of Canada) which is a national body of registrers adn enrollments services professionals of recognized colleges and universities. The association is the owner of the MyCreds, a platfrom which offers a document exchange and credential wallet for students and graduates. This initiaitve is being collaboration i
+ARUCC (Association of Registrars of the Universities and Colleges of Canada) which is a national body of registrars and enrollments services professionals of recognized colleges and universities. The association is the owner of the MyCreds, a platform which offers a document exchange and credential wallet for students and graduates. This initiative is being collaboration i
 
 #### MATTR: 
-MATTR is a market leader in providing a platform for offering digital identities and verifieable credentials. MATTR has taken digital trust and interactions over the internet to the next level, contributed in the standards community and shaping up the future of the digital identity space.   
+MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. MATTR has taken digital trust and interactions over the internet to the next level, contributed in the standards community and shaping up the future of the digital identity space.   
 
 #### Digitary:
-Digitary provides solution in educational sector to issue and varify the digital credentials for the educational degree certificates, transcripts and other senetitive documents online. 
+Digitary provides solution in educational sector to issue and verify the digital credentials for the educational degree certificates, transcripts and other sensitive documents online. 
 
 ## How to use this project?
 Section covering the details of how this project and code can be utilised 
 
 ### Standards and Specifications 
-In this project, there are various standards and specifications are being used to establish the integrity of the educational credentials.  
+In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
 
 #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
 For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/).
 
-Below section represents a sample DID document for reference.  
-test
+A sample DID document is presented below for reference.
 
 ```
 {
@@ -45,7 +44,7 @@ test
 }
 ```
 
-#### Verifieable Credentials Data Model v1.1: 
+#### Verifiable Credentials Data Model v1.1: 
 
 [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) are a W3C standard data model for expressing cryptographically secure digital credentials on the web.
 
@@ -57,12 +56,43 @@ When combined with DIDs, VCs provide a decentralized data sharing model where in
 
 To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/).
 
+#### JSON-LD:
+JSON-LD is a JSON-based format used to serialize Linked Data. 
 
-### International organisations supporting digital identities and verifieable credentials  
+### International organisations supporting digital identities and verifiable credentials  
+
+- W3C
+The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. W3C's primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. W3C's standards define key parts of what makes the World Wide Web work
+
+[W3C](https://www.w3.org/)
+
+- [JSON-LD](https://www.w3.org/TR/json-ld/)
+- [Linked Data Proofs]()
+- [Revocation List 2020]()
+- [Verifiable Credentials Data Model]()
+- [Verifiable Presentation Request Specification]()
+- [Confidential Storage]()
+
 
 - IETF 
-- OIDC
-- W3C
+The Internet Engineering Task Force (IETF) is a large open international community of network designers, operators, vendors, and researchers concerned with the evolution of the Internet architecture and the smooth operation of the Internet.
+
+- [JSON Web Message](https://datatracker.ietf.org/doc/html/draft-looker-jwm-01)
+- [JSON Web Encryption (JWE)](https://datatracker.ietf.org/doc/html/rfc7516)
+- [JSON Web Key (JWK)](https://datatracker.ietf.org/doc/html/rfc7517)
+- [JSON Web Signature (JWS)](https://datatracker.ietf.org/doc/html/rfc7515)
+
+
+- OIDF
+The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies.
+
+The OpenID Foundation is a non-profit international standardization organization of individuals and companies committed to enabling, promoting and protecting OpenID technologies. Formed in June 2007, the Foundation serves as a public trust organization representing the open community of developers, vendors, and users. OIDF assists the community by providing needed infrastructure and help in promoting and supporting expanded adoption of OpenID. This entails managing intellectual property and brand marks as well as fostering viral growth and global participation in the proliferation of OpenID.
+
+For more details, please visit [OIDF](https://openid.net/foundation/). 
+
+- [OpenID Connect](https://openid.net/connect/)
+- [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
+
 
 
 
