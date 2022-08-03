@@ -68,18 +68,22 @@ The World Wide Web Consortium (W3C) is an international community that develops 
 
 For more details, visit [W3C](https://www.w3.org/) website. 
 
-Following is the list of specifications which W3C has worked in the space of decentralised identities. 
+Below is the list of specifications which W3C has worked in the space of decentralised identities. 
 
   - [JSON-LD](https://www.w3.org/TR/json-ld/)
-  - [Linked Data Proofs]()
-  - [Revocation List 2020]()
-  - [Verifiable Credentials Data Model]()
-  - [Verifiable Presentation Request Specification]()
-  - [Confidential Storage]()
+  - [Linked Data Proofs](https://w3c-ccg.github.io/data-integrity-spec/)
+  - [Revocation List 2020](https://w3c-ccg.github.io/vc-status-rl-2020/)
+  - [Verifiable Credentials Data Model](https://www.w3.org/TR/vc-data-model/)
+  - [Verifiable Presentation Request Specification](https://w3c-ccg.github.io/vp-request-spec/)
+  - [Confidential Storage](https://identity.foundation/confidential-storage/)
 
 
 - #### IETF (Internet Engineering Task Force) 
 The Internet Engineering Task Force (IETF) is a large open international community of network designers, operators, vendors, and researchers concerned with the evolution of the Internet architecture and the smooth operation of the Internet.
+
+For more details, please visit [IETF](https://www.ietf.org/) website.  
+
+Following is the list of specifications which IETF has contributed to in terms of identity space.
 
 - [JSON Web Message](https://datatracker.ietf.org/doc/html/draft-looker-jwm-01)
 - [JSON Web Encryption (JWE)](https://datatracker.ietf.org/doc/html/rfc7516)
@@ -90,7 +94,7 @@ The Internet Engineering Task Force (IETF) is a large open international communi
 - #### OIDF (OpenID Foundation)
 The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies. The OpenID Foundation is a non-profit international standardization organization of individuals and companies committed to enabling, promoting and protecting OpenID technologies. Formed in June 2007, the Foundation serves as a public trust organization representing the open community of developers, vendors, and users. OIDF assists the community by providing needed infrastructure and help in promoting and supporting expanded adoption of OpenID. This entails managing intellectual property and brand marks as well as fostering viral growth and global participation in the proliferation of OpenID.
 
-For more details, please visit [OIDF](https://openid.net/foundation/). 
+For more details, please visit [OIDF](https://openid.net/foundation/) website and the specifications below. 
 
 - [OpenID Connect](https://openid.net/connect/)
 - [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
@@ -114,4 +118,4 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 
 You may obtain a copy of the License at https://www.apache.org/licenses/LICENSE-2.0.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the [LICENSE](LICENSE) for the specific language governing permissions and limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the [LICENSE]() for the specific language governing permissions and limitations under the License.
