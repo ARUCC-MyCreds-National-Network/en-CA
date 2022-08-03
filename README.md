@@ -20,7 +20,7 @@ Section covering the details of how this project and code can be utilised
 ### Standards and Specifications 
 In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
 
-#### Decentralised Identifiers (DIDs) v1.0: 
+- #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
 For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/).
@@ -44,7 +44,7 @@ A sample DID document is presented below for reference.
 }
 ```
 
-#### Verifiable Credentials Data Model v1.1: 
+- #### Verifiable Credentials Data Model v1.1: 
 
 [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) are a W3C standard data model for expressing cryptographically secure digital credentials on the web.
 
@@ -56,25 +56,29 @@ When combined with DIDs, VCs provide a decentralized data sharing model where in
 
 To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/).
 
-#### JSON-LD:
-JSON-LD is a JSON-based format used to serialize Linked Data. 
+- #### JSON-LD:
+JSON-LD is a JSON-based format used to serialize Linked Data. Linked Data plays a very important role when it comes to exchanging verifiable information. JSON-LD is designed to facilitate sharing and discovering data in web-based environments. There are several available guides online that describe JSON-LD in detail. We’re going to focus on two required properties of JSON-LD that consistently show up in the VC data model, namely @context and type. 
+
+For more details, refer to the specification of [JSON-LD](https://www.w3.org/TR/json-ld11/). 
 
 ### International organisations supporting digital identities and verifiable credentials  
 
-- W3C
+- #### W3C (World Wide Web Consortium)
 The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. W3C's primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. W3C's standards define key parts of what makes the World Wide Web work
 
-[W3C](https://www.w3.org/)
+For more details, visit [W3C](https://www.w3.org/) website. 
 
-- [JSON-LD](https://www.w3.org/TR/json-ld/)
-- [Linked Data Proofs]()
-- [Revocation List 2020]()
-- [Verifiable Credentials Data Model]()
-- [Verifiable Presentation Request Specification]()
-- [Confidential Storage]()
+Following is the list of specifications which W3C has worked in the space of decentralised identities. 
+
+  - [JSON-LD](https://www.w3.org/TR/json-ld/)
+  - [Linked Data Proofs]()
+  - [Revocation List 2020]()
+  - [Verifiable Credentials Data Model]()
+  - [Verifiable Presentation Request Specification]()
+  - [Confidential Storage]()
 
 
-- IETF 
+- #### IETF (Internet Engineering Task Force) 
 The Internet Engineering Task Force (IETF) is a large open international community of network designers, operators, vendors, and researchers concerned with the evolution of the Internet architecture and the smooth operation of the Internet.
 
 - [JSON Web Message](https://datatracker.ietf.org/doc/html/draft-looker-jwm-01)
@@ -83,17 +87,13 @@ The Internet Engineering Task Force (IETF) is a large open international communi
 - [JSON Web Signature (JWS)](https://datatracker.ietf.org/doc/html/rfc7515)
 
 
-- OIDF
-The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies.
-
-The OpenID Foundation is a non-profit international standardization organization of individuals and companies committed to enabling, promoting and protecting OpenID technologies. Formed in June 2007, the Foundation serves as a public trust organization representing the open community of developers, vendors, and users. OIDF assists the community by providing needed infrastructure and help in promoting and supporting expanded adoption of OpenID. This entails managing intellectual property and brand marks as well as fostering viral growth and global participation in the proliferation of OpenID.
+- #### OIDF (OpenID Foundation)
+The OpenID Foundation (OIDF) promotes, protects and nurtures the OpenID community and technologies. The OpenID Foundation is a non-profit international standardization organization of individuals and companies committed to enabling, promoting and protecting OpenID technologies. Formed in June 2007, the Foundation serves as a public trust organization representing the open community of developers, vendors, and users. OIDF assists the community by providing needed infrastructure and help in promoting and supporting expanded adoption of OpenID. This entails managing intellectual property and brand marks as well as fostering viral growth and global participation in the proliferation of OpenID.
 
 For more details, please visit [OIDF](https://openid.net/foundation/). 
 
 - [OpenID Connect](https://openid.net/connect/)
 - [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
-
-
 
 
 ### Project learnings 
