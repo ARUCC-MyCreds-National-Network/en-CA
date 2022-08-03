@@ -23,7 +23,8 @@ In this project, there are various standards and specifications which are being 
 - #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
-For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/).
+For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also you can watch some videos on the same topic at MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
+
 
 A sample DID document is presented below for reference.
 
@@ -54,7 +55,7 @@ The VC data model defines two concrete data syntaxes, JSON and JSON-LD. JSON-LD 
 
 When combined with DIDs, VCs provide a decentralized data sharing model where interconnected webs of signed and linked data can be used to establish trust across contexts.
 
-To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/).
+To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/). Watch a few videos on this topic published by MATTR [here](https://www.youtube.com/watch?v=6H099_hTRc4&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=6). 
 
 - #### JSON-LD:
 JSON-LD is a JSON-based format used to serialize Linked Data. Linked Data plays a very important role when it comes to exchanging verifiable information. JSON-LD is designed to facilitate sharing and discovering data in web-based environments. There are several available guides online that describe JSON-LD in detail. We’re going to focus on two required properties of JSON-LD that consistently show up in the VC data model, namely @context and type. 
