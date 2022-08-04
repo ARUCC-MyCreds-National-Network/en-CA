@@ -3,7 +3,7 @@ A project for creating verifiable credentials of educational records for ARUCC-C
 
 ## About this project
 The project enables a secure digital wallet (i.e. MyCreds) where graduates can view and share their official, verified educational credentials anytime, and from anywhere. 
-There are various government bodies, partners and stakeholders are involved in brining this idea to life and making the MyCreds an innovative platform to deliver value in the Canadian educational sector. 
+There are various government bodies, partners and stakeholders involved in bringing this idea to life and making the MyCreds an innovative platform to deliver value in the Canadian educational sector. 
 
 #### ARUCC: 
 ARUCC (Association of Registrars of the Universities and Colleges of Canada) which is a national body of registrars and enrollments services professionals of recognized colleges and universities. The association is the owner of the MyCreds, a platform which offers a document exchange and credential wallet for students and graduates. This initiative is being collaboration i
@@ -23,7 +23,7 @@ In this project, there are various standards and specifications which are being 
 - #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
-For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also you can watch some videos on the same topic at MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
+For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also, you can watch some videos on the same topic at the MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
 
 
 A sample DID document is presented below for reference.
