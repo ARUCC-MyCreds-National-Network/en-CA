@@ -19,9 +19,6 @@ Digitary provides solutions in the educational sector to issue and verify the di
 
 In this project, the Digitary (In collaboration with the MATTR) is enabling the complete value chain of digital credentials. 
 
-## How to use this project?
-This section will cover the details of how this project and code can be utilised.  
-
 ## Standards and Specifications 
 In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
 
