@@ -28,7 +28,7 @@ In this project, there are various standards and specifications which are being 
 - #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refer to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
-Following are the few benefits associated with DIDs. 
+Following are the key benefits associated with DIDs. 
 
 -   DIDs are globally unique, highly available and cryptographically verifiable 
 -   A user can prove the ownership of one 
@@ -102,13 +102,6 @@ For more details, please visit [OIDF](https://openid.net/foundation/) website an
 
 - [OpenID Connect](https://openid.net/connect/)
 - [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
-
-
-## Standard-first Approach 
-Standards enable user choice and prevent vendor lock-in, enabling interoperability of data models and protocols for cryptography, messaging, storage, and so much more.
-
-Wherever possible, our products leverage and support existing standards. Where gaps exist, we propose modifications or develop new specifications with our technical community. Our commitment to interoperability reduces risk while future-proofing implementations. 
-
 
 ### Credits
 Thank you to all our partners and contributors who have been involved in this project such as [ARUCC](https://arucc.ca/en/), [Digitary](https://www.digitary.net/) and [MATTR](https://mattr.global/). 
