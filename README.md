@@ -1,38 +1,38 @@
-## MyCreds
-A project creating verifiable credentials for the educational records of ARUCC-Canada.
+⁸## MyCreds Virtual Skills Passport Project - micro-credentials
+A project creating verifiable credentials for the educational records of Canadian colleges and universities.
 
 ## About this project
-The project enables a secure digital wallet (Developed by the MATTR) where university graduates can view and share their official, verified educational credentials anytime, and from anywhere. 
+The project enables a secure digital wallet (Developed by the MATTR) where university and college graduates of micro-credential programs can view and share their official, verified educational credentials anytime, and from anywhere. 
 
 There are various partners and stakeholders involved in bringing this idea to life and developing an innovative platform to deliver value for the education sector in Canada. Following are the main contributors to the project. 
 
 #### ARUCC: 
-ARUCC (Association of Registrars of the Universities and Colleges of Canada) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds, a platform that offers a document exchange and credential wallet for students and graduates.
+ARUCC (Association of Registrars of the Universities and Colleges of Canada) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds, a platform that offers an official document exchange and credential wallet for students and graduates.
 
 #### MATTR:
-MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. The MATTR has taken digital trust and interactions over the internet to the next level contributed to the standards community and shaped the future of the digital identity space.
+MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. The MATTR has taken digital trust and interactions over the internet to the next level. MATTR contributes actively to the standards community and is helping to shape the future of the digital identity space.
 
-For this project, the MATTR platform is enabled to support Digitary in shaping up the credential generation, verification, and revocation capabilities.
+For this project, the MATTR platform is enabled to support Digitary in shaping up the credential generation, verification, and revocation capabilities for Verifiable Credentials.
 
 #### Digitary:
-Digitary provides solutions in the educational sector to issue and verify the digital credentials for educational degree certificates, transcripts and other sensitive documents online. 
+Digitary provides solutions in the educational sector to issue and verify official digital credentials for educational degree certificates, transcripts and other sensitive documents online. 
 
-In this project, the Digitary (In collaboration with the MATTR) is enabling the complete value chain of digital credentials. 
+In this project, Digitary (in collaboration with MATTR and ARUCC) is enabling the complete value chain of digital credentials. Digitary CORE technology powers the ARUCC MyCreds National Network. 
 
 ## Standards and Specifications 
-In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
+In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials. Examples include IMS Global, XML, OIDC, BBS+, W3C, and more.
 
 - #### Decentralised Identifiers (DIDs) v1.0: 
-A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refer to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
+A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.).
 
 Following are the key benefits associated with DIDs. 
 
 -   DIDs are globally unique, highly available and cryptographically verifiable 
 -   A user can prove the ownership of one 
--   Preserves the user privacy, transparency and trust
+-   They preserve the user privacy, transparency and trust
 -   Improve audit trails to support compliance   
 
-For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also, you can watch some videos on the same topic on the MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
+For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also,806-6292 9watch some videos on the same topic on the MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
 
 
 - #### Verifiable Credentials Data Model v1.1: 
