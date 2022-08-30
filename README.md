@@ -1,13 +1,12 @@
 ## MyCreds
-A project creating verifiable credentials for the educational records of ARUCC-Canada.
+MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup> Virtual Skills Passport Pilot Project for micro-credentials - A project creating verifiable credentials for the educational records of Canadian post-secondary institutions.
 
 ## About this project
-The project enables a secure digital wallet (Developed by the MATTR) where university graduates can view and share their official, verified educational credentials anytime, and from anywhere. 
-
-There are various partners and stakeholders involved in bringing this idea to life and developing an innovative platform to deliver value for the education sector in Canada. Following are the main contributors to the project. 
+The project enables a secure digital wallet (Developed by MATTR) where university and college graduates of micro-credential programs can view and share their official, verified educational credentials anytime, and from anywhere.
+There are various partners and stakeholders involved in bringing this idea to life and developing an innovative platform to deliver value for the education sector in Canada. The following are the main contributors to the project. 
 
 #### ARUCC: 
-ARUCC (Association of Registrars of the Universities and Colleges of Canada) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds, a platform that offers a document exchange and credential wallet for students and graduates.
+The Association of Registrars of the Universities and Colleges of Canada (ARUCC) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup>, a platform that offers an official document exchange network and digital credential wallets for students and graduates.
 
 #### MATTR:
 MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. The MATTR has taken digital trust and interactions over the internet to the next level contributed to the standards community and shaped the future of the digital identity space.
@@ -17,10 +16,12 @@ For this project, the MATTR platform is enabled to support Digitary in shaping u
 #### Digitary:
 Digitary provides solutions in the educational sector to issue and verify the digital credentials for educational degree certificates, transcripts and other sensitive documents online. 
 
-In this project, the Digitary (In collaboration with the MATTR) is enabling the complete value chain of digital credentials. 
+For this project, Digitary, in collaboration with MATTR and ARUCC, is enabling the complete value chain of digital credentials. The Digitary CORE technology powers the ARUCC MyCreds<sup>TM</sup> National Network.
 
 ## Standards and Specifications 
 In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
+
+
 
 - #### Decentralised Identifiers (DIDs) v1.0: 
 A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refer to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
@@ -51,6 +52,7 @@ Here are the few advantages of having verifiable credentials.
 - Multiple credentials in a single presentation 
 
 To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/). Watch a few videos on this topic published by the MATTR [here](https://www.youtube.com/watch?v=6H099_hTRc4&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=6). 
+
 
 ### International organisations supporting digital identities and trust
 
