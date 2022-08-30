@@ -3,9 +3,11 @@ MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup> Virtual Skills Passport Pilot Proj
 
 ## About this project
 MyCreds<sup>TM</sup> provides learners and graduates access to a secure digital wallet where they can view and share their official, verified educational credentials on a 24/7 basis – anytime, anywhere. 
-This pilot project is extending the MyCreds<sup>TM</sup>network capabilities by leveraging innovative technology and digitization principles to deliver self-sovereign identity (SSI) and verifiable credentials.
 
-To bring this idea to life, there are various partners and stakeholders involved who are developing an innovative platform to transform the future of academic credentials.  
+This pilot project is extending the MyCreds<sup>TM</sup> network capabilities by leveraging innovative technology and digitisation principles to deliver self-sovereign identity (SSI) and verifiable credentials.
+
+To bring this idea to life, various partners and stakeholders are involved in developing an innovative platform to transform the future of academic credentials.  
+
 
 #### ARUCC: 
 The Association of Registrars of the Universities and Colleges of Canada (ARUCC) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup>, a platform that offers an official document exchange network and digital credential wallets for students and graduates.
