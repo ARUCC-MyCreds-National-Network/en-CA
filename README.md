@@ -4,10 +4,9 @@ MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup> Virtual Skills Passport Pilot Proj
 ## About this project
 MyCreds<sup>TM</sup> provides learners and graduates access to a secure digital wallet where they can view and share their official, verified educational credentials on a 24/7 basis – anytime, anywhere. 
 
-This pilot project is extending the MyCreds<sup>TM</sup> network capabilities by leveraging innovative technology and digitisation principles to deliver self-sovereign identity (SSI) and verifiable credentials.
+This pilot project is extending the MyCreds<sup>TM</sup> network capabilities by leveraging innovative technology and digitization principles to deliver self-sovereign identity (SSI) and verifiable credentials.
 
 To bring this idea to life, various partners and stakeholders are involved in developing an innovative platform to transform the future of academic credentials.  
-
 
 #### ARUCC: 
 The Association of Registrars of the Universities and Colleges of Canada (ARUCC) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup>, a platform that offers an official document exchange network and digital credential wallets for students and graduates.
@@ -23,7 +22,7 @@ Digitary provides solutions in the educational sector to issue and verify the di
 For this project, Digitary, in collaboration with MATTR and ARUCC, is enabling the complete value chain of digital credentials. The Digitary CORE technology powers the ARUCC MyCreds<sup>TM</sup> National Network.
 
 ## Standards and Specifications 
-In this project, there are various standards and specifications which are being used to establish the integrity of the educational credentials.  
+In this project, there are various standards and specifications are being used to establish the integrity of the educational credentials.  
 
 
 
@@ -33,8 +32,7 @@ A globally unique persistent identifier that does not require a centralized regi
 Following are the key benefits associated with DIDs. 
 
 -   DIDs are globally unique, highly available and cryptographically verifiable 
--   A user can prove the ownership of one 
--   Preserves the user privacy, transparency and trust
+-   A user can prove the ownership of one Preserves the user's privacy, transparency and trust
 -   Improve audit trails to support compliance   
 
 For more details about the DID specifications, visit [here](https://www.w3.org/TR/2022/REC-did-core-20220719/). Also, you can watch some videos on the same topic on the MATTR YouTube channel [here](https://www.youtube.com/watch?v=gWgAgpfLEIQ&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=5)
@@ -65,7 +63,7 @@ The World Wide Web Consortium (W3C) is an international community that develops 
 
 For more details, visit [W3C](https://www.w3.org/) website. 
 
-Below is the list of specifications on which W3C has worked in the space of decentralised identities. 
+Below is the list of specifications on which W3C has worked in the space of decentralized identities. 
 
   - [JSON-LD](https://www.w3.org/TR/json-ld/)
   - [Linked Data Proofs](https://w3c-ccg.github.io/data-integrity-spec/)
@@ -75,7 +73,7 @@ Below is the list of specifications on which W3C has worked in the space of dece
   - [Confidential Storage](https://identity.foundation/confidential-storage/)
 
 - #### DIF (Decentralised Identity Foundation)
-DIF is an engineering-driven organization acting as the center for development, discussion, and management of all the activities required to create and maintain an interoperable & open ecosystem for the decentralized identities. 
+DIF is an engineering-driven organization acting as the center for the development, discussion, and management of all the activities required to create and maintain an interoperable & open ecosystem for decentralized identities. 
 
 Following are the notable specifications from DIF. 
 
