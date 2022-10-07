@@ -13,7 +13,7 @@ To bring this idea to life, various partners and stakeholders are involved in de
 The Association of Registrars of the Universities and Colleges of Canada (ARUCC) is a national body of registrars and enrollment services professionals of recognized colleges and universities. The association is the owner of MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup>, a platform that offers an official document exchange network and digital credential wallets for students and graduates.
 
 #### MATTR:
-MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. The MATTR has taken digital trust and interactions over the internet to the next level contributed to the standards community and shaped the future of the digital identity space.
+MATTR is a market leader in providing a platform for offering digital identities and verifiable credentials. MATTR has taken digital trust and interactions over the internet to the next level, contributed to the standards community and shaped the future of the digital identity space.
 
 For this project, the MATTR platform is enabled to support Digitary in shaping up the credential generation, verification, and revocation capabilities.
 
