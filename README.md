@@ -56,7 +56,7 @@ Here are the few advantages of having verifiable credentials.
 To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/). Watch a few videos on this topic published by the MATTR [here](https://www.youtube.com/watch?v=6H099_hTRc4&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=6). 
 
 
-### International organisations supporting digital identities and trust
+### International organizations supporting digital identities and trust
 
 - #### W3C (World Wide Web Consortium)
 The World Wide Web Consortium (W3C) is an international community that develops open standards, protocols and guidelines that ensure the long-term growth of the Web. 
