@@ -1,4 +1,4 @@
-## MyCreds
+## MyCreds<sup>TM</sup>
 MyCreds<sup>TM</sup> | MesCertif<sup>TM</sup> Virtual Skills Passport Pilot Project for micro-credentials - A project creating verifiable credentials for the educational records of Canadian post-secondary institutions.
 
 ## About this project
@@ -46,14 +46,14 @@ Though they are both part of the VC data model, [Verifiable Credentials - VCs](h
 
 The VC data model defines two concrete data syntaxes, JSON and JSON-LD. JSON-LD allows the VC data model to be extensible and interoperable while remaining distributed in its architecture.
 
-Here are the few advantages of having verifiable credentials. 
+Here are a few advantages of having verifiable credentials. 
 
 - Defined by a common standard (W3C) that enhances interoperability  
 - Cryptographically secured using digital signatures 
 - Provides control over the information sharing  
 - Multiple credentials in a single presentation 
 
-To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/). Watch a few videos on this topic published by the MATTR [here](https://www.youtube.com/watch?v=6H099_hTRc4&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=6). 
+To learn more about the VCs data model, refer to the details on W3C [here](https://www.w3.org/TR/vc-data-model/). Watch a few videos on this topic published by MATTR [here](https://www.youtube.com/watch?v=6H099_hTRc4&list=PL1v34OMpKjALowB6oxDYmCvoYfWeiUe_4&index=6). 
 
 
 ### International organizations supporting digital identities and trust
