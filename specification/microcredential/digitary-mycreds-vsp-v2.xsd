@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+	version="0.1"
+    xmlns="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    elementFormDefault="qualified"
+	attributeFormDefault="unqualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="Student">
+
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Person">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="SchoolAssignedPersonID" type="xs:string" minOccurs="1" maxOccurs="1" />
+              <xsd:element name="Birth" minOccurs="0">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="BirthDate" type="xs:date" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Name">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="FirstName" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="LastName" type="xs:string" minOccurs="1" maxOccurs="1" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="Contacts">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Email" type="xs:string" minOccurs="1" maxOccurs="1" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+
+        <xsd:element name="LearningRecord">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="MicrocredentialAward">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="AwardID" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="AwardLevel" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="AwardTitle" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="AwardDescription" type="xs:string" minOccurs="0" />
+                    <xsd:element name="AwardHonours" type="xs:string" minOccurs="0" />
+                    <xsd:element name="AwardProgram">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="ProgramName" type="xs:string" minOccurs="1" maxOccurs="1" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="AwardDate" type="xs:date" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="IssuedDate" type="xs:date" minOccurs="1" maxOccurs="1" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element name="MicrocredentialOrganization">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="IssuingBodyID" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="IssuingBodyName" type="xs:string" minOccurs="1" maxOccurs="1" />
+                    <xsd:element name="Contacts">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="Address">
+                            <xsd:complexType>
+                              <xsd:sequence>
+                                <xsd:element name="CountryCode" type="xs:string" minOccurs="1" maxOccurs="1" />
+                              </xsd:sequence>
+                            </xsd:complexType>
+                          </xsd:element>
+                          <xsd:element name="URL" type="xs:string" minOccurs="1" maxOccurs="1" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+
+</xsd:schema>

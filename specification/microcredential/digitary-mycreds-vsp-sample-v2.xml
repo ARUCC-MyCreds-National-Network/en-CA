@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Student xmlns="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://core.digitary.net/schema/mycreds/vsp/2022/11/01 https://core.digitary.net/schema/mycreds/vsp/2022/11/01">
+
+    <Person>
+        <SchoolAssignedPersonID>13101993</SchoolAssignedPersonID>
+        <Birth>
+            <BirthDate>1990-03-14</BirthDate>
+        </Birth>
+        <Name>
+            <FirstName>Christie</FirstName>
+            <LastName>Schultz</LastName>
+        </Name>
+        <Contacts>
+            <Email>christie.schultz@institution.ca</Email>
+        </Contacts>
+    </Person>
+    <LearningRecord>
+    <MicrocredentialAward>
+        <AwardID>38477JHGJU129</AwardID>
+        <AwardLevel>Baccalaureate/Bachelor's Degree</AwardLevel>
+        <AwardTitle>Professional Microcredential</AwardTitle>
+        <AwardDescription>Professional Microcredential description</AwardDescription>
+        <AwardHonours>Honours</AwardHonours>
+        <AwardProgram>
+            <ProgramName>Strategic Planning and Management</ProgramName>
+        </AwardProgram>
+      <AwardDate>2021-11-21</AwardDate>
+        <IssuedDate>2021-11-23</IssuedDate>
+    </MicrocredentialAward>
+    <MicrocredentialOrganization>
+        <IssuingBodyID>UR12345</IssuingBodyID>
+        <IssuingBodyName>University of Regina</IssuingBodyName>
+        <Contacts>
+        <Address>
+            <CountryCode>CA</CountryCode>
+        </Address>
+        <URL>https://www.uregina.ca/</URL>
+        </Contacts>
+    </MicrocredentialOrganization>
+    </LearningRecord>
+
+</Student>
