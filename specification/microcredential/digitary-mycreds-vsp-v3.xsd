@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+        version="0.1"
+        xmlns="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+        xmlns:vspui="https://core.digitary.net/schema/mycreds/vsp/ui/2023/01/10"
+        attributeFormDefault="unqualified"
+        elementFormDefault="qualified"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+		<!--
+		     Student: Top level element which will contain all details relating to the student
+		-->
+    <xsd:element name="Student" type="StudentType" />
+
+    <xsd:complexType name="StudentType">
+        <xsd:sequence>
+            <xsd:element name="Person" type="PersonType" />
+            <xsd:element name="LearningRecord" type="LearningRecordType" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+		<!--
+		     PersonType: Contains Personal information for the student
+		-->
+		<xsd:complexType name="PersonType">
+				<xsd:sequence>
+						<xsd:element name="Name" type="NameType" />
+						<xsd:element name="Birth" type="BirthType" minOccurs="0" />
+						<xsd:element name="SchoolAssignedPersonID" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="Contacts" type="ContactsType" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 NameType: Contains details on the student name
+		-->
+		<xsd:complexType name="NameType">
+				<xsd:sequence>
+						<xsd:element name="FirstName" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="MiddleName" type="xs:string" minOccurs="0" maxOccurs="1" />
+						<xsd:element name="LastName" type="xs:string" minOccurs="1" maxOccurs="1" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 BirthType: Contains details related to students date of birthday
+		-->
+		<xsd:complexType name="BirthType">
+				<xsd:sequence>
+						<xsd:element name="BirthDate" type="xs:date" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 ContactsType: Contains contact details for the students
+		-->
+		<xsd:complexType name="ContactsType">
+				<xsd:sequence>
+						<xsd:element name="Email" type="xs:string" minOccurs="1" maxOccurs="1" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 LearningRecordType: Contains details on the students learner record
+		-->
+		<xsd:complexType name="LearningRecordType">
+				<xsd:sequence>
+						<xsd:element name="MicrocredentialAward" type="MicrocredentialAwardType" />
+						<xsd:element name="MicrocredentialOrganization" type="MicrocredentialOrganizationType" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 MicrocredentialAwardType: Contains details on the students Microcredential Award
+		-->
+		<xsd:complexType name="MicrocredentialAwardType">
+				<xsd:sequence>
+						<xsd:element name="AwardID" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="AwardLevel" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="AwardCategory" type="xs:string" minOccurs="0" maxOccurs="1" />
+						<xsd:element name="AwardTitle" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="AwardDescription" type="xs:string" minOccurs="0" />
+						<xsd:element name="AwardHonours" type="xs:string" minOccurs="0" />
+						<xsd:element name="AwardProgram" type="AwardProgramType" />
+						<xsd:element name="AwardDate" type="xs:date" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="IssuedDate" type="xs:date" minOccurs="1" maxOccurs="1" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 AwardProgramType: Contains details on the award program
+		-->
+		<xsd:complexType name="AwardProgramType">
+				<xsd:sequence>
+						<xsd:element name="ProgramName" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="DisplayInfo" type="DisplayInfoType" minOccurs="0" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 MicrocredentialOrganizationType: Contains details on the organization who issued the Microcredential Award
+		-->
+		<xsd:complexType name="MicrocredentialOrganizationType">
+				<xsd:sequence>
+						<xsd:element name="IssuingBodyID" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="IssuingBodyName" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="Contacts">
+								<xsd:complexType>
+										<xsd:sequence>
+												<xsd:element name="Address">
+														<xsd:complexType>
+																<xsd:sequence>
+																		<xsd:element name="CountryCode" type="xs:string" minOccurs="1" maxOccurs="1" />
+																</xsd:sequence>
+														</xsd:complexType>
+												</xsd:element>
+												<xsd:element name="URL" type="xs:string" minOccurs="1" maxOccurs="1" />
+										</xsd:sequence>
+								</xsd:complexType>
+						</xsd:element>
+				</xsd:sequence>
+		</xsd:complexType>
+
+    <xsd:complexType name="DisplayInfoType">
+        <xsd:sequence>
+            <xsd:element name="DisplayName" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+</xsd:schema>
