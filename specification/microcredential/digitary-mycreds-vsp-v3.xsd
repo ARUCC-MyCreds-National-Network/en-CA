@@ -3,7 +3,6 @@
         targetNamespace="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
         version="0.1"
         xmlns="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
-        xmlns:vspui="https://core.digitary.net/schema/mycreds/vsp/ui/2023/01/10"
         attributeFormDefault="unqualified"
         elementFormDefault="qualified"
         xmlns:xs="http://www.w3.org/2001/XMLSchema">
@@ -79,12 +78,22 @@
 						<xsd:element name="AwardID" type="xs:string" minOccurs="1" maxOccurs="1" />
 						<xsd:element name="AwardLevel" type="xs:string" minOccurs="1" maxOccurs="1" />
 						<xsd:element name="AwardCategory" type="xs:string" minOccurs="0" maxOccurs="1" />
-						<xsd:element name="AwardTitle" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="AwardTitle" type="AwardTitleType" />
 						<xsd:element name="AwardDescription" type="xs:string" minOccurs="0" />
 						<xsd:element name="AwardHonours" type="xs:string" minOccurs="0" />
 						<xsd:element name="AwardProgram" type="AwardProgramType" />
 						<xsd:element name="AwardDate" type="xs:date" minOccurs="1" maxOccurs="1" />
 						<xsd:element name="IssuedDate" type="xs:date" minOccurs="1" maxOccurs="1" />
+				</xsd:sequence>
+		</xsd:complexType>
+
+		<!--
+				 AwardTitleType: Contains details on the award title
+		-->
+		<xsd:complexType name="AwardTitleType">
+				<xsd:sequence>
+						<xsd:element name="Title" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xsd:element name="DisplayInfo" type="DisplayInfoType" minOccurs="0" />
 				</xsd:sequence>
 		</xsd:complexType>
 

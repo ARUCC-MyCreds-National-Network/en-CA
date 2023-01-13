@@ -17,7 +17,14 @@
         <MicrocredentialAward>
             <AwardID>17867</AwardID>
             <AwardLevel>1</AwardLevel>
-            <AwardTitle>Micro-credential</AwardTitle>
+            <AwardTitle>
+                <Title>Micro-credential in Manufacturing</Title>
+                <DisplayInfo>
+                    <DisplayName>Micro-credential</DisplayName>
+                    <DisplayName>in</DisplayName>
+                    <DisplayName>Manufacturing</DisplayName>
+                </DisplayInfo>
+            </AwardTitle>
             <AwardDescription>Description of the award</AwardDescription>
             <AwardHonours>H</AwardHonours>
             <AwardProgram>
