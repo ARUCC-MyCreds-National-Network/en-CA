@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Student xmlns="https://core.digitary.net/schema/mycreds/vsp/2022/11/01"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://core.digitary.net/schema/mycreds/vsp/2022/11/01 https://core.digitary.net/schema/mycreds/vsp/2022/11/01">
+    <Person>
+        <SchoolAssignedPersonID>877865654645</SchoolAssignedPersonID>
+        <Name>
+            <FirstName>James</FirstName>
+            <MiddleName>Scott</MiddleName>
+            <LastName>Billypun</LastName>
+        </Name>
+        <Contacts>
+            <Email>john.snow@college.com</Email>
+        </Contacts>
+    </Person>
+    <LearningRecord>
+        <MicrocredentialAward>
+            <AwardID>17867</AwardID>
+            <AwardLevel>1</AwardLevel>
+            <AwardTitle>
+                <Title>Micro-credential in Manufacturing</Title>
+                <DisplayInfo>
+                    <DisplayName>Micro-credential</DisplayName>
+                    <DisplayName>in</DisplayName>
+                    <DisplayName>Manufacturing</DisplayName>
+                </DisplayInfo>
+            </AwardTitle>
+            <AwardDescription>Description of the award</AwardDescription>
+            <AwardHonours>H</AwardHonours>
+            <AwardProgram>
+                <ProgramName>Advanced Manufacturing and Automation Pre-Operator Level 3</ProgramName>
+                <DisplayInfo>
+                    <DisplayName>Advanced Manufacturing</DisplayName>
+                    <DisplayName>and</DisplayName>
+                    <DisplayName>Automation Pre-Operator Level</DisplayName>
+                </DisplayInfo>
+            </AwardProgram>
+            <AwardDate>2022-04-13</AwardDate>
+            <IssuedDate>2022-06-07</IssuedDate>
+        </MicrocredentialAward>
+        <MicrocredentialOrganization>
+            <IssuingBodyID>CA0238372</IssuingBodyID>
+            <IssuingBodyName>College</IssuingBodyName>
+            <Contacts>
+                <Address>
+                    <CountryCode>CA</CountryCode>
+                </Address>
+                <URL>https://www.college.ca/</URL>
+            </Contacts>
+        </MicrocredentialOrganization>
+    </LearningRecord>
+</Student>
