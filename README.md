@@ -104,6 +104,17 @@ For more details, please visit [OIDF](https://openid.net/foundation/) website an
 - [OpenID Connect](https://openid.net/connect/)
 - [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
 
+### ARUCC Interop Profile
+An interop profile, short for interoperability profile, is a specification that defines the technical requirements and standards that must be followed to issue, verify, and use verifiable credentials across different systems and platforms.
+
+Interop profiles are important for ensuring that verifiable credentials can be exchanged and verified seamlessly between different organizations, platforms, and systems. By following a common set of technical requirements and standards, organizations can ensure that their verifiable credentials are compatible with other systems and can be trusted by all parties.
+
+Interop profiles help to ensure that verifiable credentials can be trusted and used by different parties, which is critical for the widespread adoption of this technology. By following a common set of technical requirements and standards, organizations can benefit from the interoperability and portability of verifiable credentials, while also maintaining the security and privacy of the underlying data.
+
+For ARUCC, we have published an interop profile that refers to as a specification document and covers the patterns and examples used for the Verifiable Credential issuance and verification of the educational records requested by a post-secondary institution in Canada. These credentials are issued based on the JSON-LD format as defined by W3C. 
+
+For more information, please refer to the specification page for the [InteropProfile](https://academic-microcredential-vocab.mattrlabs.com/).
+
 ### Credits
 Thank you to all our partners and contributors who have been involved in this project such as [ARUCC](https://arucc.ca/en/), [Digitary](https://www.digitary.net/) and [MATTR](https://mattr.global/). 
 
