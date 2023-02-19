@@ -127,11 +127,11 @@ It is assumed that each verifier will utilize a DID:Web to represent themselves.
 
 4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
 
-__Verify with call-back__: The response to each presentation request is returned to the MATTR VII platform where the credential is verified. Once verified and determined to be valid, MATTR VII will return the claims from the credential as a JSON payload to the specified call-back URL.  
+- <u>Verify with call-back</u>: The response to each presentation request is returned to the MATTR VII platform where the credential is verified. Once verified and determined to be valid, MATTR VII will return the claims from the credential as a JSON payload to the specified call-back URL.  
 To use this approach, please follow the tutorial on verifying a credential using a [callback](https://learn.mattr.global/tutorials/web-credentials/verify/callback/overview), which explains the steps and configuration required. 
 
 
-__Verify via OIDC Bridge__: Utilizes an OAuth2/OIDC authorization request pattern to initiate the presentation request while establishing the identity of the holder as part of the flow. 
+- <u>Verify via OIDC Bridge</u>: Utilizes an OAuth2/OIDC authorization request pattern to initiate the presentation request while establishing the identity of the holder as part of the flow. 
 Using the presentation template configured in “step 3” above, the Verify a Credential using OIDC Bridge tutorial explains the steps and configuration required. For more details, please follow the MATTR learn tutorial [Verify a Credential using OIDC Bridge](https://learn.mattr.global/tutorials/web-credentials/verify/oidc-bridge/overview).
 
 
