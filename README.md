@@ -119,7 +119,7 @@ Here are some of the prerequisites required to set up a verifier before credenti
 
 1. __Tenant Setup__: A new tenant is created with the necessary information that can be initiated with the MATTR. For more information, see the [Tenant Setup](https://learn.mattr.global/tutorials/essentials/tenant-setup).
 
-- It is assumed that each verifier will utilize a DID:Web to represent themselves. This should be setup by following the MATTR learn tutorial [Create Web DID](https://learn.mattr.global/tutorials/dids/did-web).
+- - It is assumed that each verifier will utilize a DID:Web to represent themselves. This should be setup by following the MATTR learn tutorial [Create Web DID](https://learn.mattr.global/tutorials/dids/did-web).
 
 2. __Configure Custom Domain__: A custom domain represents your brand and reflects trust for the end-users. To create a custom domain for your organization, please follow the tutorial on creating a [Custom Domain](https://learn.mattr.global/tutorials/essentials/custom-domain). 
 
