@@ -125,9 +125,6 @@ It is assumed that each verifier will utilize a DID:Web to represent themselves.
 
 3. __Presentation Request Template__: The presentation template is required to determine the credential type and the claims being requested by a verifier for the credential holder i.e. Learner. To create a presentation template, please follow the MATTR learn tutorial on creating the [Presentation Template](https://learn.mattr.global/tutorials/web-credentials/verify/presentation-template/overview).
 
-
-
-
 4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
 
 __####Verify with call-back__: The response to each presentation request is returned to the MATTR VII platform where the credential is verified. Once verified and determined to be valid, MATTR VII will return the claims from the credential as a JSON payload to the specified call-back URL.  
