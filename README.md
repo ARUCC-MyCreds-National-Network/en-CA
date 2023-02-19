@@ -22,12 +22,8 @@ Digitary provides solutions in the educational sector to issue and verify the di
 For this project, Digitary, in collaboration with MATTR and ARUCC, is enabling the complete value chain of digital credentials. The Digitary CORE technology powers the ARUCC MyCreds<sup>TM</sup> National Network.
 
 ## Standards and Specifications 
-In this project, there are various standards and specifications are being used to establish the integrity of the educational credentials.  
-
-
-
-- #### Decentralised Identifiers (DIDs) v1.0: 
-A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refer to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
+In this project, there are various standards and specifications are being used to establish the integrity of the educational credentials. Decentralized Identifiers (DIDs) v1.0: 
+A globally unique persistent identifier that does not require a centralized registration authority and is often generated and/or registered cryptographically. Decentralized identifiers (DIDs) are a new type of identifier that enables verifiable, decentralized digital identity. A DID refers to any subject (e.g., a person, organization, thing, data model, abstract entity, etc.)
 
 Following are the key benefits associated with DIDs. 
 
@@ -72,7 +68,7 @@ Below is the list of specifications on which W3C has worked in the space of dece
   - [Verifiable Presentation Request Specification](https://w3c-ccg.github.io/vp-request-spec/)
   - [Confidential Storage](https://identity.foundation/confidential-storage/)
 
-- #### DIF (Decentralised Identity Foundation)
+- #### DIF (Decentralized Identity Foundation)
 DIF is an engineering-driven organization acting as the center for the development, discussion, and management of all the activities required to create and maintain an interoperable & open ecosystem for decentralized identities. 
 
 Following are the notable specifications from DIF. 
@@ -113,7 +109,34 @@ Interop profiles help to ensure that verifiable credentials can be trusted and u
 
 For ARUCC, we have published an interop profile that refers to as a specification document and covers the patterns and examples used for the Verifiable Credential issuance and verification of the educational records requested by a post-secondary institution in Canada. These credentials are issued based on the JSON-LD format as defined by W3C. 
 
-For more information, please refer to the specification page for the [InteropProfile](https://academic-microcredential-vocab.mattrlabs.com/).
+For more information, please refer to the specification for the [ARUCC Interop Profile](https://academic-microcredential-vocab.mattrlabs.com/) and the [GitHub repository](https://github.com/ARUCC-MyCreds-National-Network/academic-microcredential-vocab). 
+
+### ARUCC Industry Partner (Verifier) setup
+
+Before a verifier, or industry partner, can use MyCreds<sup>TM</sup> to verify a learner's credential, they need to be set up with certain prerequisites. These prerequisites are outlined below:
+
+Here are some of the prerequisites required to set up a verifier before credential information is verified. 
+
+1. __Tenant Setup__: A new tenant is created with the necessary information that can be initiated with the MATTR. For more information, see the [Tenant Setup](https://learn.mattr.global/tutorials/essentials/tenant-setup).
+
+It is assumed that each verifier will utilize a DID:Web to represent themselves. This should be setup by following the MATTR learn tutorial [Create Web DID](https://learn.mattr.global/tutorials/dids/did-web).
+
+2. __Configure Custom Domain__: A custom domain represents your brand and reflects trust for the end-users. To create a custom domain for your organization, please follow the tutorial on creating a [Custom Domain](https://learn.mattr.global/tutorials/essentials/custom-domain). 
+
+3. __Presentation Request Template__: The presentation template is required to determine the credential type and the claims being requested by a verifier for the credential holder i.e. Learner. To create a presentation template, please follow the MATTR learn tutorial on creating the [Presentation Template](https://learn.mattr.global/tutorials/web-credentials/verify/presentation-template/overview).
+
+
+
+
+4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
+
+__####Verify with call-back__: The response to each presentation request is returned to the MATTR VII platform where the credential is verified. Once verified and determined to be valid, MATTR VII will return the claims from the credential as a JSON payload to the specified call-back URL.  
+To use this approach, please follow the tutorial on verifying a credential using a [callback](https://learn.mattr.global/tutorials/web-credentials/verify/callback/overview), which explains the steps and configuration required. 
+
+
+__####Verify via OIDC Bridge__: Utilizes an OAuth2/OIDC authorization request pattern to initiate the presentation request while establishing the identity of the holder as part of the flow. 
+Using the presentation template configured in “step 3” above, the Verify a Credential using OIDC Bridge tutorial explains the steps and configuration required. For more details, please follow the MATTR learn tutorial [Verify a Credential using OIDC Bridge](https://learn.mattr.global/tutorials/web-credentials/verify/oidc-bridge/overview).
+
 
 ### Credits
 Thank you to all our partners and contributors who have been involved in this project such as [ARUCC](https://arucc.ca/en/), [Digitary](https://www.digitary.net/) and [MATTR](https://mattr.global/). 
