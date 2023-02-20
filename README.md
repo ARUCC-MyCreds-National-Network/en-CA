@@ -127,9 +127,9 @@ Here are some of the prerequisites required to set up a verifier before credenti
 3. __Presentation Request Template__: The presentation template is required to determine the credential type and the claims being requested by a verifier for the credential holder i.e. Learner. To create a presentation template, please follow the MATTR learn tutorial on creating the [Presentation Template](https://learn.mattr.global/tutorials/web-credentials/verify/presentation-template/overview).
 
 Here is the sample payload structure for a presentation template which a verifier can use to verify the learner's credential information. 
-
+```
 {
-   "id":"f5728a34-86f2-43d7-8a09-4efcd1589a56",
+   "id":"f5728a34-86f3-43d7-8a19-4egcd1589a56",
    "name":"academic-credential-presentation",
    "domain":"kakapo-nursing.mattrlabs.com",
    "query":[
@@ -158,6 +158,9 @@ Here is the sample payload structure for a presentation template which a verifie
       }
    ]
 }
+```
+
+
 
 4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
 
