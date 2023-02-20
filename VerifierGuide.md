@@ -11,9 +11,9 @@ This short guide covers the specifics of the onboarding processes for verifier w
 ### Prerequisites  
 
 - Agreeing to the ARUCC Industry Partner Service Terms for MyCreds<sup>TM</sup> Virtual Skills Passport Verification Service. 
-- Signed up / provisioned access to a MATTR VII tenant 
-- Ability to orchestrate API driven flows to call the MATTR VII issuance and/or verification capability 
-- Ability to securely store, and use ```client_credentials``` and ```client_secret``` to obtain an access token which will be used to authenticate and access MATTR VII APIs 
+- Signed up / provisioned access to a MATTR VII tenant. 
+- Ability to orchestrate API driven flows to call the MATTR VII issuance and/or verification capability. 
+- Ability to securely store, and use ```client_credentials``` and ```client_secret``` to obtain an access token which will be used to authenticate and access MATTR VII APIs. 
 - Access to the MATTR developer or compatible wallet that can claim/receive, store, present verifiable credentials, that are bound to the wallet using the holders DID. 
 - Access to a domain/subdomain that can be bound to the provisioned MATTR VII tenant as a custom domain to represent a user-friendly and trusted name/brand for credential issuer or verifier. 
 
