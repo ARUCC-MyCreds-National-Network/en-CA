@@ -100,13 +100,15 @@ For more details, please visit [OIDF](https://openid.net/foundation/) website an
 - [OpenID Connect](https://openid.net/connect/)
 - [OpenID Connect Credential Provider](https://mattrglobal.github.io/oidc-client-bound-assertions-spec/v0.1/)
 
-### ARUCC Interop Profile
+### Interop Profile
+#### What is an interop profile?
 An interop profile, short for interoperability profile, is a specification that defines the technical requirements and standards that must be followed to issue, verify, and use verifiable credentials across different systems and platforms.
 
 Interop profiles are important for ensuring that verifiable credentials can be exchanged and verified seamlessly between different organizations, platforms, and systems. By following a common set of technical requirements and standards, organizations can ensure that their verifiable credentials are compatible with other systems and can be trusted by all parties.
 
 Interop profiles help to ensure that verifiable credentials can be trusted and used by different parties, which is critical for the widespread adoption of this technology. By following a common set of technical requirements and standards, organizations can benefit from the interoperability and portability of verifiable credentials, while also maintaining the security and privacy of the underlying data.
 
+#### Interop profile for ARUCC
 For ARUCC, we have published an interop profile that refers to as a specification document and covers the patterns and examples used for the Verifiable Credential issuance and verification of the educational records requested by a post-secondary institution in Canada. These credentials are issued based on the JSON-LD format as defined by W3C. 
 
 For more information, please refer to the specification for the [ARUCC Interop Profile](https://academic-microcredential-vocab.mattrlabs.com/) and the [GitHub repository](https://github.com/ARUCC-MyCreds-National-Network/academic-microcredential-vocab). 
@@ -123,6 +125,39 @@ Here are some of the prerequisites required to set up a verifier before credenti
 2. __Configure Custom Domain__: A custom domain represents your brand and reflects trust for the end-users. To create a custom domain for your organization, please follow the tutorial on creating a [Custom Domain](https://learn.mattr.global/tutorials/essentials/custom-domain). 
 
 3. __Presentation Request Template__: The presentation template is required to determine the credential type and the claims being requested by a verifier for the credential holder i.e. Learner. To create a presentation template, please follow the MATTR learn tutorial on creating the [Presentation Template](https://learn.mattr.global/tutorials/web-credentials/verify/presentation-template/overview).
+
+Here is the sample payload structure for a presentation template which a verifier can use to verify the learner's credential information. 
+
+{
+   "id":"f5728a34-86f2-43d7-8a09-4efcd1589a56",
+   "name":"academic-credential-presentation",
+   "domain":"kakapo-nursing.mattrlabs.com",
+   "query":[
+      {
+         "type":"QueryByExample",
+         "credentialQuery":[
+            {
+               "reason":"Please provide your certificate.",
+               "example":{
+                  "type":[
+                     "VerifiableCredential"
+                  ],
+                  "@context":[
+                     "https://schema.org"
+                  ],
+                  "trustedIssuer":[
+                     {
+                        "issuer":"did:web:www.niagaracollege.ca",
+                        "required":true
+                     }
+                  ]
+               },
+               "required":true
+            }
+         ]
+      }
+   ]
+}
 
 4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
 
