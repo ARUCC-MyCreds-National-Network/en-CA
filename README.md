@@ -113,9 +113,9 @@ For ARUCC, we have published an interop profile that refers to as a specificatio
 
 For more information, please refer to the specification for the [ARUCC Interop Profile](https://academic-microcredential-vocab.mattrlabs.com/) and the [GitHub repository](https://github.com/ARUCC-MyCreds-National-Network/academic-microcredential-vocab). 
 
-### ARUCC Industry Partner (Verifier) setup
+### ARUCC Verifier setup
 
-Before a verifier, or industry partner, can use MyCreds<sup>TM</sup> to verify a learner's credential, they need to be set up with certain prerequisites. These prerequisites are outlined below:
+Before a verifier (or industry partner), can use MyCreds<sup>TM</sup> to verify a learner's credential, they need to be set up with certain prerequisites. These prerequisites are outlined below:
 
 Here are some of the prerequisites required to set up a verifier before credential information is verified. 
 
