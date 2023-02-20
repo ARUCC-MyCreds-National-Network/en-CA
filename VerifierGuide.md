@@ -1,10 +1,44 @@
+## ARUCC Ecosystem 
+
+The MyCreds<sup>TM</sup> platform, provided by Digitary is being extended to support the issuance of micro credentials, which are represented as W3C Verifiable Credentials.  
+The technology platform underpinning this new capability on the MyCreds<sup>TM</sup> platform is called MATTR VII, a dedicated decentralized identity and verifiable credential lifecycle management platform.  
+
+Using the MATTR VII capability, the MyCreds<sup>TM</sup> platform will now be able to issue education awards as digitally verifiable credentials that can be claimed into secure wallets by learners. 
+Industry Partners can also utilize MATTR VII capability to request credentials from learners and verifier their authenticity and data integrity. 
+
+This short guide covers the specifics of the onboarding processes for verifier within the MyCreds<sup>TM</sup> platform and wider ARUCC verifier network. 
+
+### Prerequisites  
+
+- Agreeing to the ARUCC Industry Partner Service Terms for MyCreds<sup>TM</sup> Virtual Skills Passport Verification Service. 
+- Signed up / provisioned access to a MATTR VII tenant 
+- Ability to orchestrate API driven flows to call the MATTR VII issuance and/or verification capability 
+- Ability to securely store, and use ```client_credentials``` and ```client_secret``` to obtain an access token which will be used to authenticate and access MATTR VII APIs 
+- Access to the MATTR developer or compatible wallet that can claim/receive, store, present verifiable credentials, that are bound to the wallet using the holders DID. 
+- Access to a domain/subdomain that can be bound to the provisioned MATTR VII tenant as a custom domain to represent a user-friendly and trusted name/brand for credential issuer or verifier. 
+
 ### ARUCC Verifier setup
 
 Before a verifier (or industry partner), can use MyCreds<sup>TM</sup> to verify a learner's credential, they need to be set up with certain prerequisites. These prerequisites are outlined below:
 
 Here are some of the prerequisites required to set up a verifier before credential information is verified. 
 
-1. __Tenant Setup__: A new tenant is created with the necessary information that can be initiated with the MATTR. For more information, see the [Tenant Setup](https://learn.mattr.global/tutorials/essentials/tenant-setup). It is assumed that each verifier will utilize a DID:Web to represent themselves. This should be setup by following the MATTR learn tutorial [Create Web DID](https://learn.mattr.global/tutorials/dids/did-web).
+1. __Tenant Setup__: 
+- A new tenant is created with the necessary information that can be initiated with the MATTR. For more information, see the [Tenant Setup](https://learn.mattr.global/tutorials/essentials/tenant-setup).
+Following information is required to set up a tenant. 
+
+   - Preferred tenant prefix/subdomain (i.e name of company)
+   - Type of tenant (UAT or Production) 
+   - Industry Partners are recommended to have two tenants (1 x UAT, 1 x Production) 
+   - Note. The prefix/subdomain will be combined with the tenant type to represent the MATTR VII tenant name i.e. <prefix/subdomain>.<tenant-type> 
+   - Issuer Organization Name 
+   - Contact Name 
+   - Contact Email Address 
+   - Tenant Region (Australia, Canada, US) 
+
+- MATTR will provision the tenant and supply the requestor with the required information, including API client and secret. This information will be sent via a secured channel or one-time access link. 
+
+- It is assumed that each verifier will utilize a DID:Web to represent themselves. This should be setup by following the MATTR learn tutorial [Create Web DID](https://learn.mattr.global/tutorials/dids/did-web).
 
 2. __Configure Custom Domain__: A custom domain represents your brand and reflects trust for the end-users. To create a custom domain for your organization, please follow the tutorial on creating a [Custom Domain](https://learn.mattr.global/tutorials/essentials/custom-domain). 
 
