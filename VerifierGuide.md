@@ -91,7 +91,7 @@ Using the presentation template configured in “step 3” above, the Verify a C
 5. __Invoke a Presentation Request__: 
 With the above setup complete, a presentation request can be initiated as outlined in each of the above tutorials. 
 
-Once the QR code is scanned by the wallet the appropriate flow configured against that QR code will commence and allow the holder to present their credential for verification. 
+- Once the QR code is scanned by the wallet the appropriate flow configured against that QR code will commence and allow the holder to present their credential for verification. 
 
 6. __Revocation__: 
 Although revocation is available with the existing MyCreds<sup>TM</sup> and MATTR capabilities, it will not be available in the first phase of the pilot.
