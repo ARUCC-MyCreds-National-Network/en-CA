@@ -30,7 +30,7 @@ Following information is required to set up a tenant.
    - Preferred tenant prefix/subdomain (i.e name of company)
    - Type of tenant (UAT or Production) 
    - Industry Partners are recommended to have two tenants (1 x UAT, 1 x Production) 
-   - Note. The prefix/subdomain will be combined with the tenant type to represent the MATTR VII tenant name i.e. <prefix/subdomain>.<tenant-type> 
+   - __Note__. The prefix/subdomain will be combined with the tenant type to represent the MATTR VII tenant name i.e. <prefix/subdomain>.<tenant-type> 
    - Issuer Organization Name 
    - Contact Name 
    - Contact Email Address 
@@ -44,7 +44,8 @@ Following information is required to set up a tenant.
 
 3. __Presentation Request Template__: The presentation template is required to determine the credential type and the claims being requested by a verifier for the credential holder i.e. Learner. To create a presentation template, please follow the MATTR learn tutorial on creating the [Presentation Template](https://learn.mattr.global/tutorials/web-credentials/verify/presentation-template/overview).
 
-Here is the sample payload structure for a presentation template which a verifier can use to verify the learner's credential information. 
+Here is the sample presentation template which a verifier can use to verify the learner's credential information. 
+
 ```
 {
    "id":"f5728a34-86f3-43d7-8a19-4egcd1589a56",
@@ -87,3 +88,10 @@ To use this approach, please follow the tutorial on verifying a credential using
 - <u>**Verify via OIDC Bridge**</u>: Utilizes an OAuth2/OIDC authorization request pattern to initiate the presentation request while establishing the identity of the holder as part of the flow. 
 Using the presentation template configured in “step 3” above, the Verify a Credential using OIDC Bridge tutorial explains the steps and configuration required. For more details, please follow the MATTR learn tutorial [Verify a Credential using OIDC Bridge](https://learn.mattr.global/tutorials/web-credentials/verify/oidc-bridge/overview).
 
+5. __Invoke a Presentation Request__: 
+With the above setup complete, a presentation request can be initiated as outlined in each of the above tutorials. 
+
+Once the QR code is scanned by the wallet the appropriate flow configured against that QR code will commence and allow the holder to present their credential for verification. 
+
+6. __Revocation__: 
+Although revocation is available with the existing MyCreds<sup>TM</sup> and MATTR capabilities, it will not be available in the first phase of the pilot.
