@@ -113,7 +113,7 @@ For ARUCC, we have published an interop profile that refers to as a specificatio
 
 For more information, please refer to the specification for the [ARUCC Interop Profile](https://academic-microcredential-vocab.mattrlabs.com/) and the [GitHub repository](https://github.com/ARUCC-MyCreds-National-Network/academic-microcredential-vocab). 
 
-#### ARUCC verifier setup guide 
+### ARUCC verifier setup guide 
 To onboard a verifier or industry partner onto the ARUCC ecosystem, they are required to complete certain steps in the onboarding process. The following guide will assist industry partners who wish to verify a learner's credentials.
 
 For more details, please refer to the [Verifier Guide](https://github.com/ARUCC-MyCreds-National-Network/en-CA/blob/main/VerifierGuide.md) and follow the steps in the guide to onboard as a Verifier in the ARUCC ecosystem.
