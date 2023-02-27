@@ -82,11 +82,11 @@ Here is the sample presentation template which a verifier can use to verify the 
 #### What changes are required by the verifier? 
 For a verifier to configure a presentation template correctly, following changes are required to verify the learner's claims and credentials.
 
-   1. Give your presentation template a unique `name`. The `name` is intended to be used internally to let you manage your templates. It will not be shown to the learner while using wallet.
-   2. The `domain` indicates the tenant URl that belong to a **Verifier**. This must always match your tenant URL or custom domain if you have set one up. 
-   3. The `reason` is shown in the learner's mobile wallet to give context around why a credential is being requested by the verifier.
-   4. The `type` is the credential type that the learner's mobile wallet will use to find matching credentials that it holds.
-   5. The `issuer` in `trustedIssuer` filters which credentials will be acceptable. An employer, for instance, might only accept the public DIDs of certain universities. You can add multiple trusted issuers inside the `trustedIssuer` array.
+   - Give your presentation template a unique `name`. The `name` is intended to be used internally to let you manage your templates. It will not be shown to the learner while using wallet.
+   - The `domain` indicates the tenant URl that belong to a **Verifier**. This must always match your tenant URL or custom domain if you have set one up. 
+   - The `reason` is shown in the learner's mobile wallet to give context around why a credential is being requested by the verifier.
+   - The `type` is the credential type that the learner's mobile wallet will use to find matching credentials that it holds.
+   - The `issuer` in `trustedIssuer` filters which credentials will be acceptable. An employer, for instance, might only accept the public DIDs of certain universities. You can add multiple trusted issuers inside the `trustedIssuer` array.
 
    > Note: Verifier need to take note of the `Id` of the presentation template to utilise it in the verification process.
 
