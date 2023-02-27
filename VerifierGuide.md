@@ -50,7 +50,7 @@ Here is the sample presentation template which a verifier can use to verify the 
 {
    "id":"f5728a34-86f3-43d7-8a19-4egcd1589a56",
    "name":"academic-credential-presentation",
-   "domain":"kakapo-nursing.mattrlabs.com",
+   "domain":"YOUR_TENANT_SUBDOMAIN.vii.mattr.global",
    "query":[
       {
          "type":"QueryByExample",
@@ -59,7 +59,8 @@ Here is the sample presentation template which a verifier can use to verify the 
                "reason":"Please provide your certificate.",
                "example":{
                   "type":[
-                     "VerifiableCredential"
+                     "VerifiableCredential",
+                     "VerifiableCredentialExtension"
                   ],
                   "@context":[
                      "https://schema.org"
