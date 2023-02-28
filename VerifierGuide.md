@@ -59,6 +59,7 @@ Here is the sample presentation template which a verifier can use to verify the 
                "reason":"Please provide your certificate.",
                "example":{
                   "type":[
+                     "AcademicAward",
                      "VerifiableCredential",
                      "VerifiableCredentialExtension"
                   ],
