@@ -48,8 +48,7 @@ Here is the sample presentation template which a verifier can use to verify the 
 
 ```
 {
-   "id":"f5728a34-86f3-43d7-8a19-4egcd1589a56",
-   "name":"academic-credential-presentation",
+   "name":"certificate-presentation",
    "domain":"YOUR_TENANT_SUBDOMAIN.vii.mattr.global",
    "query":[
       {
@@ -88,8 +87,6 @@ For a verifier to configure a presentation template correctly, following changes
    - The `reason` is shown in the learner's mobile wallet to give context around why a credential is being requested by the verifier.
    - The `type` is the credential type that the learner's mobile wallet will use to find matching credentials that it holds.
    - The `issuer` in `trustedIssuer` filters which credentials will be acceptable. An employer, for instance, might only accept the public DIDs of certain universities. You can add multiple trusted issuers inside the `trustedIssuer` array.
-
-   > Note: Verifier need to take note of the `Id` of the presentation template to utilise it in the verification process.
 
 4. __Verifier Setup__: There are two approaches available for the Verifiers in the ARUCC ecosystem, depending on the integration pattern being used: 
 
